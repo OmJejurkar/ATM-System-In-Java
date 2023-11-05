@@ -41,7 +41,7 @@
                 PreparedStatement insertStatement = null;
         
                 try {
-                    dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javaatmpoject", "root", "Omi@2005");
+                    dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javaatmproject", "root", "Omi@2005");
                     String insertQuery = "INSERT INTO atm (Name, Pin) VALUES (?, ?)";
                     insertStatement = dbConnection.prepareStatement(insertQuery);
         

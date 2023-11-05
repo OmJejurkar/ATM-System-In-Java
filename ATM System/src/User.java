@@ -17,7 +17,7 @@ public class User {
         this.username = username;
         this.password = password;
         try {
-            dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javaatmpoject", "root", "Omi@2005");
+            dbConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/javaatmproject", "root", "Omi@2005");
         } catch (SQLException e) {
             e.printStackTrace();
         }

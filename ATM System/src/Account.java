@@ -27,7 +27,7 @@ public class Account extends JFrame implements ActionListener {
     JPanel welcomePanel = new JPanel(new GridLayout(4, 1));
     welcomePanel.add(new JLabel("Hello, " + user));
     welcomePanel.add(
-      new JLabel("Your Balance is: " + user.getBalance() + " Rs")
+      new JLabel("Your Balance is: " + user.getBalance() + "Rs")
     );
 
     JPanel valuePanel = new JPanel(new GridLayout(1, 2));
